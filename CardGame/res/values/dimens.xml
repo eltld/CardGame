@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_bottom_spl_scr">23dp</dimen>
+    <dimen name="width_prog_bar_spl_scr">200dp</dimen>
+    <dimen name="height_prog_bar_spl_scr">10dp</dimen>
+    
+    <dimen name="height_menu_buttom">102dp</dimen>
+    <dimen name="width_menu_buttom">90dp</dimen>
+    
+    <dimen name="margin_bottom_menu_scr">23dp</dimen>
+    <dimen name="margin_top_menu_scr">23dp</dimen>
+    <dimen name="margin_left_menu_scr">23dp</dimen>
+    <dimen name="margin_right_menu_scr">23dp</dimen>
+    
+    <dimen name="height_card">74dp</dimen>
+    <dimen name="width_card">56dp</dimen>
+    
+    <dimen name="game_tien_len_margin_card_horizontal">-30dp</dimen>
+    <dimen name="game_tien_len_margin_card_vertical">-60dp</dimen>
+
+    <dimen name="margin_vertical_game_bai_cao_scr">8dp</dimen>
+    <dimen name="margin_horizontal_bai_cao_scr">16dp</dimen>
+    
+    <dimen name="height_board_about_us">516dp</dimen>
+    <dimen name="width_board_about_us">498dp</dimen>
+    
+    <dimen name="width_button_choose_game">147dp</dimen>
+    <dimen name="height_button_choose_game">90dp</dimen>
+    <dimen name="width_image_choose_game_bai_cao">238dp</dimen>
+    <dimen name="height_image_choose_game_bai_cao">60dp</dimen>
+    <dimen name="margin_top_choose_game">40dp</dimen>
+    
+    <dimen name="width_image_choose_game_tien_len">235dp</dimen>
+    <dimen name="height_image_choose_game_tien_len">60dp</dimen>
+    
+    <dimen name="width_image_choose_game_xi_lat">353dp</dimen>
+    <dimen name="height_image_choose_game_xi_lat">60dp</dimen>
+    
+    <dimen name="size_text_view_big_stat_scr">35sp</dimen>
+    <dimen name="size_text_view_small_stat_scr">20sp</dimen>
+    
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+    
+    <dimen name="margin_horizontal_avatar_bai_cao">30dp</dimen>
+    <dimen name="margin_vertical_avatar_bai_cao">30dp</dimen>
+    <dimen name="margin_vertical_avatar_bai_cao_2">60dp</dimen>
+    <dimen name="margin_card_from_others_hor_bai_cao">-30dp</dimen>
+    <dimen name="margin_card_from_others_ver_bai_cao">-50dp</dimen>
+    <dimen name="margin_btn_bet_xi_lat">20dp</dimen>
+    <dimen name="margin_bottom_btn_bet_xi_lat">60dp</dimen>
+    <dimen name="margin_left_btn_bet_xi_lat">-40dp</dimen>
+    <dimen name="margin_bottom_chips_bet_scr">10dp</dimen>
+    <dimen name="margin_left_chips_bet_scr">100dp</dimen>
+    <dimen name="margin_top_btns_bet_scr">40dp</dimen>
+    
+    <dimen name="height_avatar">56dp</dimen>
+    <dimen name="width_avatar">50dp</dimen>
+    <dimen name="height_btn_flip_bai_cao">60dp</dimen>
+    <dimen name="width_btn_flip_bai_cao">60dp</dimen>
+    <dimen name="height_btn_back">70dp</dimen>
+    <dimen name="width_btn_back">70dp</dimen>
+    <dimen name="height_chip_xi_lat">60dp</dimen>
+    <dimen name="width_chip_xi_lat">60dp</dimen>
+    <dimen name="height_betted_chip_xi_lat">35dp</dimen>
+    <dimen name="width_betted_chip_xi_lat">45dp</dimen>
+    <dimen name="height_hand_xi_lat">36dp</dimen>
+    <dimen name="width_hand_xi_lat">30dp</dimen>
+    <dimen name="height_hand_bet_scr">36dp</dimen>
+    <dimen name="width_hand_bet_scr">30dp</dimen>
+    <dimen name="height_button_bet_xi_lat">51dp</dimen>
+    <dimen name="width_button_bet_xi_lat">55dp</dimen>
+    <dimen name="height_button_unbet_xi_lat">51dp</dimen>
+    <dimen name="width_button_unbet_xi_lat">50dp</dimen>
+    <dimen name="height_button_deal_xi_lat">51dp</dimen>
+    <dimen name="width_button_deal_xi_lat">50dp</dimen>
+    
+    <dimen name="height_button_bet_bet_scr">46dp</dimen>
+    <dimen name="width_button_bet_bet_scr">50dp</dimen>
+    <dimen name="height_button_unbet_bet_scr">46dp</dimen>
+    <dimen name="width_button_unbet_bet_scr">45dp</dimen>
+    <dimen name="height_button_ok_bet_scr">46dp</dimen>
+    <dimen name="width_button_ok_bet_scr">45dp</dimen>
+    
+    <dimen name="height_button_bot_xi_lat">58dp</dimen>
+    <dimen name="width_button_bot_xi_lat">60dp</dimen>
+    <dimen name="height_button_ko_bot_xi_lat">58dp</dimen>
+    <dimen name="width_button_ko_bot_xi_lat">57dp</dimen>
+    
+    
+    <dimen name="distance_text_chips">40dp</dimen>
+    <dimen name="distance_text_chips_bet_scr">22dp</dimen>
+    <dimen name="distance_text_hand">20dp</dimen>
+    <dimen name="distance_btn_bot_card_xi_lat">20dp</dimen>
+    
+    <dimen name="size_text_view_xi_lat_bet_guide">15sp</dimen>
+    <dimen name="size_text_view_bet_guide_bet_scr">15sp</dimen>
+    
+    <dimen name="width_image_score_bai_cao">40dp</dimen>
+    <dimen name="height_image_score_bai_cao">40dp</dimen>
+    
+    <dimen name="width_image_nut_bai_cao">47dp</dimen>
+    <dimen name="height_image_nut_bai_cao">40dp</dimen>
+    
+    <dimen name="width_image_word_3_tien_bai_cao">112dp</dimen>
+    <dimen name="height_image_word_3_tien_bai_cao">40dp</dimen>
+    
+    <dimen name="width_image_word_xi_lat">190dp</dimen>
+    <dimen name="height_image_word_xi_lat">50dp</dimen>
+
+    <dimen name="margin_vertical_score_bai_cao">30dp</dimen>
+    
+    <dimen name="width_image_avatar_end_activity">45dp</dimen>
+    <dimen name="height_image_avatar_end_activity">45dp</dimen>
+    
+    <dimen name="margin_linear_layout_top_end_act">35dp</dimen>
+    <dimen name="margin_list_view_top_end_act">25dp</dimen>
+    <dimen name="margin_list_view_bottom_end_act">20dp</dimen>
+    <dimen name="margin_linear_layout_bottom_end_act">12dp</dimen>
+    
+    <dimen name="width_btn_chan_tien_len">60dp</dimen>
+    <dimen name="height_btn_chan_tien_len">50dp</dimen>
+    
+    <dimen name="margin_btn_chan_tien_len">20dp</dimen>
+    
+    
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro_help">
+        <![CDATA[
+        <p>
+        Đây là một bộ sưu tập các trò chơi đánh bài quen thuộc với chúng ta như bài cào,
+        bài xì lát, bài tiến lên,...
+        </p>
+        <br/>
+        <br/>
+        ]]>
+    </string>
+    <string name="help_bai_cao">
+        <![CDATA[
+        <p>
+        <b>Bài cào</b> là một kiểu chơi bài bằng một bộ bài tây. Có thể nói, đây là một trong những cách 
+        chơi bài đơn giản nhất, nhanh nhất và phụ thuộc hoàn toàn vào yếu tố may rủi. Bài cào được 
+        chơi từ hai người trở lên, không giới hạn số người nhưng sao đảm bảo mỗi người có đủ ba lá bài.
+        </p>
+        <p>
+        Đặt cược: mỗi người chơi đặt cược số tiền (tài sản) bằng nhau theo thỏa thuận ban đầu và 
+        phải đặt tiền vào giữa bàn chơi, trước mỗi ván.
+        </p>
+        <p>
+        Bài được một người đại diện chia cho từng người, mỗi người có ba lá, nếu còn dư bài thì 
+        để riêng ra. Người chơi xem bài của mình kín đáo hoặc công khai và tính điểm.
+        </p>
+        <p>
+        Cách tính điểm như sau:
+        </p>
+        <p>
+        \u2022 Các lá: A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 mỗi lá có số điểm tương ứng con số đó.
+        </p>
+        <p>
+        \u2022 Các lá: J, Q, K mỗi lá tính mười điểm.
+        </p>
+        <p>
+        Điểm của người chơi trong mỗi ván là số lẻ của tổng điểm ba lá bài. Ví dụ, 
+        tổng ba lá là 27 điểm thì được 7 điểm, 10 điểm thì được 0 điểm.
+        </p>
+        <p>
+        Phân thắng thua: Sau khi tính điểm và trình bài, ai có số điểm cao nhất là thắng ván đó. 
+        Trường hợp đặc biệt là ai sở hữu được cả ba lá bài J, Q, K bất kỳ thì thắng ngay ván đó 
+        không cần tính điểm. Nếu có từ hai người có số điểm cao nhất trở lên thì tùy thỏa thuận.
+        </p>
+         ]]>
+    </string>
+    
+    <string name="help_xi_lat">
+        <![CDATA[
+        <p>
+        Bài xì lát được chơi từ hai người trở lên, nhưng thông thường và tốt nhất là không quá 
+        năm người. Trong đó, có một người đảm nhận vài trò "nhà cái". Ngoại trừ nhà cái, người 
+        chơi ("nhà con") phải đặt cược trước sồ tiền (tài sản) bao nhiêu tùy thích trước mỗi ván 
+        chơi (đặt công khai trên sòng bài). Nếu thắng, họ nhận được tiền (tài sản) có giá trị 
+        tương đương như đã đặt cược, còn thua thì họ mất số tiền, tài sản đã cược cho nhà cái. Nhà 
+        cái cũng phải công khai "khả năng chi trả" của mình có cho người chơi biết, để tránh trường 
+        hợp "quịt" tiền. Tất cả nhà con đều chống lại nhà cái, vì họ có quyền lợi như nhau.
+        </p>
+        <p>
+        Trong mỗi ván, mục tiêu của người chơi xì lát là cố gắng đạt được tổng số điểm từ các lá bài 
+        trên tay càng gần hoặc bằng 21 điểm càng tốt, nhưng không được vượt quá 21.
+        </p>
+        <p>
+        Với một bộ bài tây 52 lá, nhà cái sẽ chia lần lượt cho mình và cho nhà con, mỗi người 2 lá. 
+        Các lá bài còn dư thì nhà cái cầm nhưng không được xem.
+        </p>
+        <h1>
+        Tính điểm
+        </h1>
+        <h2>
+        Giai đoạn 1: Tính điểm 2 lá
+        </h2>
+        <p>
+        Sau khi chia, tất cả cùng xem bài, tùy vào điểm số của bài mà mỗi người lần lượt lựa 
+        chọn bốc thêm bài hay không (nhà cái bốc sau cùng). Cách tính điểm như sau (không quan 
+        tâm màu sắc lá bài):
+        </p>
+        <p>
+        \u2022	Các lá bài: 2, 3, 4, 5, 6, 7, 8, 9, 10 thì số điểm tương ứng con số
+        </p>
+        <p>
+        \u2022	Các là bài: J, Q, K thì mỗi lá được 10 điểm
+        </p>
+        <p>
+        \u2022	Lá bài A: có thể tính theo: 2 lá A kẻ 11, 3 lá A kẻ 10, 4 lá trở lên kẻ 1.
+        </p>
+        <p>
+        Điểm tổng là điểm của tất cả các con bài trên tay cộng lại.
+        </p>
+        <p>
+        Với hai là bài được chia đầu tiên, nếu người nào có những trường hợp sau đây thì 
+        trình diện ngay cho nhà cái để hưởng lợi:
+        </p>
+        <p>
+        \u2022	Xì bàng: 2 lá AA.
+        </p>
+        <p>
+        \u2022	Xì lát: 1 lá A và thêm 1 trong các lá 10, J, Q, K.
+        </p>
+        <p>
+        Nếu nhà cái có trường hợp như thế (nghĩa là có Xì bàng hoặc Xì lát), nhà cái thắng hết nhà 
+        con (ngoại trừ nhà con nào có bài bằng hoặc cao hơn nhà cái). Bài sẽ được thâu lại để chuyển 
+        qua ván mới.
+        </p>
+        <p>
+        Nếu nhà cái không có Xì bàn hoặc Xì lát, nhà cái phải chung tiền cho những người có Xì 
+        bàn hoặc Xì lát. Sau đó nhà cái và những người chơi còn lại (những người không có Xì bàn 
+        và Xì lát) đi tiếp qua giai đoạn 2.
+        </p>
+        <h2>
+        Giai đoạn 2: Bốc thêm bài
+        </h2>
+        <p>
+        Sau khi tính điểm hai lá, người chơi có quyền bốc thêm bài (bọt bài) từ những lá bài còn 
+        dư hoặc thôi (dằng), sao cho số điểm nằm trong khoảng 16 (có nơi là 14) đến 21. Việc bốc 
+        thêm bài được thực hiện theo vòng tròn, hết người này đến người khác. Trước hoặc trong 
+        giai đoạn bốc bài, bất kỳ lúc nào, nhà cái cũng có quyền kiểm bài nhà con nếu anh ta đã 
+        được 16 điểm trở lên (đủ tuổi), nhưng việc này được cho là không có lợi cho nhà cái.
+        </p>
+        <p>
+        Mọi người chơi phải có số điểm ít nhất là 16 trong tay trước khi bị nhà cái kiểm bài 
+        (đủ tuổi), nếu không, họ bị xử thua ngay ván đó. Nhà cái có quyền kiểm bài bất kỳ nhà con 
+        nào, nếu nhà cái hơn điểm nhà con, anh ta ăn phần cược nhà con, ngược lại, anh ta trả tiền 
+        bằng tiền nhà con đã cược, nếu hai bên bằng nhau thì huề (chạy làng).
+        </p>
+        <p>
+        Các trường hợp đặc biệt của giai đoạn 2:
+        </p>
+        <p>
+        \u2022	Ngũ Linh: với năm lá bài trên tay mà tổng điểm nhỏ hơn 21, người chơi thắng tuyệt đối. 
+        Trường hợp có hai hay nhiều người Ngũ Linh ai ít điểm hơn thì thắng. Người chơi phải trình 
+        khi bọt đủ 5 lá.
+        </p>
+        <p>
+        \u2022	Quá 21 điểm (Quắc) thì thắng thấp hơn 16 điểm (Dằn non)
+        </p>
+        <p>
+        \u2022	Đền bài: Người nào biết bài của mình đã quá 21 điểm mà vẫn bốc thêm bài, nếu 
+        bị phát hiện thì bị đền bài. Người đó bị xử thua tất cả mọi người khác.
+        </p>
+        <p>
+        <b><i>Chú ý:</i></b> Có những hiểu lầm về luật chơi dẫn đến thắc mắc là giữa Ngũ Linh và Xì bàn, 
+        Xì dách thì cách so sánh ra sao. Xì bàn và Xì dách thuộc về giai đoạn 1, Ngũ Linh thuộc 
+        về giai đoạn 2. Giai đoạn 1 kết thúc rồi mới chuyển qua giai đoan 2, nên không bao giờ có 
+        việc so sánh Xì bàn, Xì dách với Ngũ Linh được.
+        </p>
+        ]]>
+    </string>
+    
+    <string name="help_tien_len">
+        <![CDATA[
+        <p>
+        <b>Tiến lên</b> là một cách chơi bài của Việt Nam, được chơi bởi hai đến bốn người.
+        </p>
+        <p>
+        Một bộ bài tiêu chuẩn (52 lá) được chia đều cho bốn người chơi, mỗi người 13 lá bài.
+        </p>
+        <h1>
+        Xếp bài
+        </h1>
+        <h2>
+        Các kết hợp đơn giản
+        </h2>
+        <p>
+        \u2022 Rác: bài rác là những lá bài riêng lẻ không thể kết hợp với lá bài khác
+        </p>
+        <p>
+        \u2022 Đôi: 2 quân bài cùng số và cùng chất (miền Bắc), hoặc 2 quân bài cùng số (miền Nam)
+        </p>
+        <p>
+        \u2022 Ba lá: 3 quân bài cùng số
+        </p>
+        <p>
+        \u2022 Sảnh: 3 hoặc nhiều hơn 3 quân có số liên tiếp 
+        </p>
+        <p>
+        Khi so sánh các nhóm (đôi, ba lá, sảnh,..) bài với nhau, giá trị của nhóm được định đoạt 
+        bởi giá trị của quân bài mạnh nhất trong nhóm. Ví dụ:
+        </p>
+        <p>
+        \u2022	Bộ đôi: Trong cách chơi miền Bắc phải cùng chất: \u26665\u26655 thắng \u26664\u26654. 
+        Trong cách chơi miền Nam không cần cùng chất: \u26665\u26635 thắng \u26664\u26654.
+        </p>
+        <p>
+        \u2022	Bộ ba: Trong cách chơi miền Bắc phải cùng chất \u26605\u26665\u26655 thắng 
+        \u26604\u26664\u26654. 
+        Trong cách chơi miền Nam tính cả: \u26605\u26665\u26655 thắng \u26604\u26634\u26654.
+        </p>
+        <p>
+        \u2022	Sảnh: Trong cách chơi miền Bắc phải cùng chất \u2665J\u2665Q\u2665K thắng 
+        \u26658\u26659\u266510. Trong cách chơi miền Nam tính cả: \u2665J\u2665Q\u2660K thắng 
+        \u266310\u2666J\u2665Q (\u2660K thắng \u2665Q) hoặc \u26665\u26606\u26637 thắng 
+        \u26655\u26656\u26607 (\u26637 thắng \u26607).
+        </p>
+        <h2>
+        Các kết hợp đặc biệt
+        </h2>
+        <p>
+        \u2022	đôi thông: là sự kết hợp từ ba đôi trở lên có số liên tiếp nhau. Kiểu này không áp 
+        dụng ở cách chơi miền Bắc.
+	     <br/>ví dụ: \u26653\u26663\u26654\u26664\u26655\u26665 hoặc 
+	     \u266010\u266310\u2660J\u2663J\u2660Q\u2663Q\u2660K\u2663K\u2660A\u2663A hoặc 
+	     \u266010\u266310\u2665J\u2663J\u2660Q\u2666Q
+        </p>
+        <p>
+        \u2022	Tứ quý: 4 lá bài cùng số.
+	     <br/>ví dụ: \u26654\u26664\u26634\u26604
+        </p>
+        <p>
+        Hàng có khả năng đánh thắng đặc biệt gọi là chặt, chẳng hạn tứ quý có thể chặt đôi 2 
+        (hoặc một tùy vào luật chơi đã được thỏa thuận) và ba đôi thông, ba đôi thông có thể chặt 
+        được 2 (4 đôi có thể chặt được đôi 2)... Khi đó, người chặt sẽ được thưởng & người bị chặt 
+        sẽ bị phạt. Hàng cũng có thể bị thối khi người có hàng về bét mà vẫn còn hàng trên tay 
+        (sẽ bị phạt)
+        </p>
+        <h1>
+        Luật chơi
+        </h1>
+        <p>
+        Đây là kiểu chơi giải phóng bài, nghĩa là ai hết bài trước thì thắng.
+        </p>
+        <p>
+        <b>Ván khởi đầu:</b> là ván bắt đầu cuộc chơi, hoặc là ván bắt đầu chơi lại khi có người 
+        "tới trắng". Trong ván khởi đầu, ai sở hữu lá \u26603 (ba bích) thì được ra bài đầu tiên, nhưng 
+        lượt ra bài này phải có lá \u26603 trong đó. Những ván không phải ván khởi đầu thì người thắng ván 
+        trước được ra bài đầu tiên.
+        </p>
+        <p>
+        <b>Lượt bài</b> (còn gọi là vòng bài): Lần lượt theo chiều ngược chiều kim đồng hồ, mỗi người 
+        được ra một quân hoặc một bộ quân bài. Bài người sau phải cùng kiểu và lớn hơn bài người trước 
+        để đè bài người trước (cùng kiểu nghĩa là cùng là rác, đôi, sảnh... trừ trường hợp "chặt" heo). 
+        Trong cùng một lượt bài, yếu tố "theo lượt" (hoặc "theo vòng") được áp dụng, nghĩa là người chơi 
+        đã tự bỏ qua một lượt ra bài thì không được tham gia ra bài trong cùng lượt (vòng) bài đó nữa.
+        </p>
+        <p>
+        Nếu không có ai ra bài để đè được một người thì người đó được tiếp tục ra lượt bài mới. 
+        Nếu người ra bài cuối cùng ấy đã hết bài (đã tới) thì người gần nhất bên phải họ được ra bài 
+        (luật này gọi là "hưởng sái"). Mỗi khu vực, mỗi vùng miền có luật chơi riêng, tùy vào sự thỏa 
+        thuận ban đầu của những người chơi.
+        </p>
+        ]]>
+    </string>
+</resources>

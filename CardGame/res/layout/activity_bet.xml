@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BetActivity" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_chips_bai_cao_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_bottom_chips_bet_scr"
+        android:layout_marginLeft="@dimen/margin_left_chips_bet_scr" >
+        
+        <ImageButton
+            android:id="@+id/chip_50_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_50"/>
+        
+        <ImageButton
+            android:id="@+id/chip_100_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_100"/>
+        
+        <ImageButton
+            android:id="@+id/chip_500_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_500"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_chips_bai_cao_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/linear_layout_chips_bai_cao_below"
+        android:layout_marginLeft="@dimen/margin_left_chips_bet_scr" >
+        
+        <ImageButton
+            android:id="@+id/chip_5_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_5"/>
+        
+        <ImageButton
+            android:id="@+id/chip_10_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_10"/>
+        
+        <ImageButton
+            android:id="@+id/chip_25_bai_cao"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_25"/>
+        
+    </LinearLayout>
+    
+    <!-- Bet guide ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <ImageView
+        android:id="@+id/image_view_hand_guide_bai_cao"
+        android:layout_width="@dimen/width_hand_bet_scr"
+        android:layout_height="@dimen/height_hand_bet_scr"
+        android:layout_above="@id/linear_layout_chips_bai_cao_above"
+        android:layout_marginBottom="@dimen/distance_text_chips_bet_scr"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/hand_icon"
+        android:layout_marginLeft="@dimen/margin_left_chips_bet_scr" />
+    
+    <TextView
+        android:id="@+id/text_view_bai_cao_bet_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_view_hand_guide_bai_cao"
+        android:layout_above="@id/linear_layout_chips_bai_cao_above"
+        android:layout_marginBottom="@dimen/distance_text_chips_bet_scr"
+        android:text="@string/text_view_xi_lat_bet_guide"
+        android:textColor="@color/text_view_xi_lat_bet_guide"
+        android:textSize="@dimen/size_text_view_bet_guide_bet_scr" />
+    <!-- Bet guide ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+    <!-- Betted chips +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <ImageView
+        android:id="@+id/image_view_bai_cao_betted"
+        android:layout_width="@dimen/width_betted_chip_xi_lat"
+        android:layout_height="@dimen/height_betted_chip_xi_lat"
+        android:layout_above="@id/linear_layout_chips_bai_cao_above"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/distance_text_chips_bet_scr"
+        android:contentDescription="@string/img_content_discription" />
+    
+    <TextView
+        android:id="@+id/text_view_bai_cao_betted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_view_xi_lat_bet_guide"
+        android:textSize="@dimen/size_text_view_bet_guide_bet_scr"
+        android:layout_above="@id/image_view_bai_cao_betted"
+        android:layout_centerHorizontal="true" />
+    <!-- Betted chips +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_btns_bet_scr"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+	        android:id="@+id/btn_unbet_bai_cao"
+	        android:layout_width="@dimen/width_button_unbet_bet_scr"
+	        android:layout_height="@dimen/height_button_unbet_bet_scr"
+	        android:background="@color/absolute_transparent"
+	        android:scaleType="fitXY"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/button_unbet_xi_lat"
+	        android:visibility="invisible" />
+	    
+	    <ImageButton
+	        android:id="@+id/btn_bet_bai_cao"
+	        android:layout_width="@dimen/width_button_bet_bet_scr"
+	        android:layout_height="@dimen/height_button_bet_bet_scr"
+	        android:background="@color/absolute_transparent"
+	        android:scaleType="fitXY"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/button_bet_xi_lat"
+	        android:visibility="invisible" />
+	    
+	    <ImageButton
+	        android:id="@+id/btn_ok_bai_cao"
+	        android:layout_width="@dimen/width_button_ok_bet_scr"
+	        android:layout_height="@dimen/height_button_ok_bet_scr"
+	        android:background="@color/absolute_transparent"
+	        android:scaleType="fitXY"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/button_ok_bai_cao"
+	        android:visibility="invisible" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>

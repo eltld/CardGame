@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="img_content_discription">card game pic</string>
+    <string name="title_activity_choose_game">ChooseGameActivity</string>
+    <string name="btn_choose_game">Play Game</string>
+    <string name="title_activity_end_game">EndGameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bet">BetActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_statistic">StatisticActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    
+    <string name="text_view_xi_lat_bet_guide">Nhấp vào đây để đặt cược</string>
+    <string name="text_view_xi_lat_ask_bot">Bọt không bạn ?</string>
+    
+    <string name="thong_ke">Thống kê</string>
+    <string name="so_tien_dang_co_la">Số tiền đang có: ? $</string>
+    <string name="so_van_thang">Số ván đã thắng: ? ván</string>
+    <string name="so_van_choi">Số ván đã chơi: ? ván</string>
+    <string name="so_van_thua">Số ván đã thua: ? ván</string>
+    
+    <string name="cau_hinh">Cấu hình</string>
+    <string name="ten_nguoi_choi">Tên người chơi: </string>
+    
+    <string name="you">You</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="player3">Player 3</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoainam_quocthang.cardgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.StartActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.ChooseGameActivity"
+            android:label="@string/title_activity_choose_game"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.EndGameActivity"
+            android:label="@string/title_activity_end_game"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeEndGameDialog" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.BetActivity"
+            android:label="@string/title_activity_bet"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeBetDialog" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.StatisticActivity"
+            android:label="@string/title_activity_statistic"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hoainam_quocthang.cardgame.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>

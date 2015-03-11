@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_bottom_bai_tien_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_heart_three"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_four"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_five"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_six"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_seven"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_eight"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_nine"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_ten"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_jack"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_queen"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_king"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_ace"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_deuce"
+	        android:tag="down"
+	        android:layout_gravity="bottom"
+	        android:contentDescription="@string/img_content_discription"
+	        android:onClick="card_Click" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_top_bai_tien_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_heart_three"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_four"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_five"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_six"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_seven"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_eight"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_nine"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_ten"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_jack"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_queen"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_king"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_ace"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	        android:src="@drawable/card_heart_deuce"
+	        android:contentDescription="@string/img_content_discription" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_left_bai_tien_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_heart_three"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_four"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_five"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_six"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_seven"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_eight"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_nine"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_ten"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_jack"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_queen"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_king"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_ace"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_deuce"
+	        android:contentDescription="@string/img_content_discription" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_right_bai_tien_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_heart_three"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_four"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_five"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_six"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_seven"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_eight"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_nine"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_ten"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_jack"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_queen"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_king"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_ace"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="@dimen/game_tien_len_margin_card_vertical"
+	        android:src="@drawable/card_heart_deuce"
+	        android:contentDescription="@string/img_content_discription" />
+    
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_1"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="@dimen/height_card"
+        android:contentDescription="@string/img_content_discription" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_2"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="@dimen/height_card"
+        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_toRightOf="@id/image_view_bai_tien_len_1"
+        android:layout_alignTop="@id/image_view_bai_tien_len_1" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_3"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="@dimen/height_card"
+        android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_toRightOf="@id/image_view_bai_tien_len_2"
+        android:layout_alignTop="@id/image_view_bai_tien_len_2" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_4"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_3"
+        android:layout_alignTop="@id/image_view_bai_tien_len_3" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_5"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_4"
+        android:layout_alignTop="@id/image_view_bai_tien_len_4" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_6"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_5"
+        android:layout_alignTop="@id/image_view_bai_tien_len_5" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_7"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_6"
+        android:layout_alignTop="@id/image_view_bai_tien_len_6" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_8"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_7"
+        android:layout_alignTop="@id/image_view_bai_tien_len_7" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_9"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_8"
+        android:layout_alignTop="@id/image_view_bai_tien_len_8" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_10"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_9"
+        android:layout_alignTop="@id/image_view_bai_tien_len_9" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_11"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_10"
+        android:layout_alignTop="@id/image_view_bai_tien_len_10" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_12"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_11"
+        android:layout_alignTop="@id/image_view_bai_tien_len_11" />
+    
+    <ImageView
+        android:id="@+id/image_view_bai_tien_len_13"
+        android:layout_width="@dimen/width_card"
+	    android:layout_height="@dimen/height_card"
+	    android:layout_marginLeft="@dimen/game_tien_len_margin_card_horizontal"
+	    android:contentDescription="@string/img_content_discription"
+	    android:layout_toRightOf="@id/image_view_bai_tien_len_12"
+        android:layout_alignTop="@id/image_view_bai_tien_len_12" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_btn_chan_tien_len"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/linear_layout_bottom_bai_tien_len" >
+	    
+        <ImageButton
+            android:id="@+id/btn_chan_tien_len"
+            android:layout_width="@dimen/width_btn_chan_tien_len"
+            android:layout_height="@dimen/height_btn_chan_tien_len"
+            android:background="@color/absolute_transparent"
+            android:src="@drawable/button_chan_tien_len"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription" />
+        
+        <ImageButton
+            android:id="@+id/btn_thoi_tien_len"
+            android:layout_width="@dimen/width_btn_chan_tien_len"
+            android:layout_height="@dimen/height_btn_chan_tien_len"
+            android:background="@color/absolute_transparent"
+            android:src="@drawable/button_thoi_tien_len"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:layout_marginLeft="@dimen/margin_btn_chan_tien_len" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

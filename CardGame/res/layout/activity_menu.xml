@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_bottom_menu_scr"
+    android:paddingLeft="@dimen/margin_left_menu_scr"
+    android:paddingRight="@dimen/margin_right_menu_scr"
+    android:paddingTop="@dimen/margin_top_menu_scr"
+    android:background="@drawable/background_menu"
+    tools:context=".MenuActivity" >
+    
+    <ImageButton
+        android:id="@+id/btn_menu_new_game"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/menu_new_game"/>
+    
+    <ImageButton
+        android:id="@+id/btn_menu_continue"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu_continue"/>
+    
+    <ImageButton
+        android:id="@+id/btn_menu_stat"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/menu_stat"/>
+    
+    <ImageButton
+        android:id="@+id/btn_menu_setting"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/menu_setting"/>
+    
+    <ImageButton
+        android:id="@+id/btn_menu_help"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu_help"/>
+    
+    <ImageButton
+        android:id="@+id/btn_menu_about_us"
+        android:layout_width="@dimen/width_menu_buttom"
+        android:layout_height="@dimen/height_menu_buttom"
+        android:background="@color/absolute_transparent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/menu_about_us" />
+        
+</RelativeLayout>

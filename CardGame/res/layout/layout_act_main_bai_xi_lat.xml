@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game_xi_lat" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_bottom_bai_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_top_bai_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+	    <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginLeft="-30dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_left_bai_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+	    
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_right_bai_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:contentDescription="@string/img_content_discription"
+	        android:visibility="invisible" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+        <ImageView
+	        android:layout_width="@dimen/width_card"
+	        android:layout_height="@dimen/height_card"
+	        android:layout_marginTop="-50dp"
+	        android:src="@drawable/card_back"
+	        android:visibility="gone"
+	        android:contentDescription="@string/img_content_discription" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_chips_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+        
+        <ImageButton
+            android:id="@+id/chip_5_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_5"/>
+        
+        <ImageButton
+            android:id="@+id/chip_10_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_10"/>
+        
+        <ImageButton
+            android:id="@+id/chip_25_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_25"/>
+        
+        <ImageButton
+            android:id="@+id/chip_50_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_50"/>
+        
+        <ImageButton
+            android:id="@+id/chip_100_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_100"/>
+        
+        <ImageButton
+            android:id="@+id/chip_500_xi_lat"
+            android:layout_width="@dimen/width_chip_xi_lat"
+            android:layout_height="@dimen/height_chip_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/chip_500"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_xi_lat_bet_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_xi_lat_bet_guide"
+        android:textColor="@color/text_view_xi_lat_bet_guide"
+        android:textSize="@dimen/size_text_view_xi_lat_bet_guide"
+        android:layout_above="@id/linear_layout_chips_xi_lat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/distance_text_chips"
+        android:layout_marginLeft="@dimen/distance_text_hand"/>
+    
+    <ImageView
+        android:id="@+id/image_view_hand_xilat"
+        android:layout_width="@dimen/width_hand_xi_lat"
+        android:layout_height="@dimen/height_hand_xi_lat"
+        android:layout_toLeftOf="@id/text_view_xi_lat_bet_guide"
+        android:layout_alignTop="@id/text_view_xi_lat_bet_guide"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/hand_icon" />
+    
+    <ImageButton
+        android:id="@+id/btn_unbet_xi_lat"
+        android:layout_width="@dimen/width_button_unbet_xi_lat"
+        android:layout_height="@dimen/height_button_unbet_xi_lat"
+        android:background="@color/absolute_transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_bottom_btn_bet_xi_lat"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/button_unbet_xi_lat"
+        android:visibility="invisible" />
+    
+    <ImageButton
+        android:id="@+id/btn_bet_xi_lat"
+        android:layout_width="@dimen/width_button_bet_xi_lat"
+        android:layout_height="@dimen/height_button_bet_xi_lat"
+        android:background="@color/absolute_transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btn_unbet_xi_lat"
+        android:layout_marginLeft="@dimen/margin_left_btn_bet_xi_lat"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/button_bet_xi_lat"
+        android:visibility="invisible" />
+    
+    <ImageButton
+        android:id="@+id/btn_deal_xi_lat"
+        android:layout_width="@dimen/width_button_deal_xi_lat"
+        android:layout_height="@dimen/height_button_deal_xi_lat"
+        android:background="@color/absolute_transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_btn_bet_xi_lat"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/button_deal_xi_lat"
+        android:visibility="invisible" />
+    
+    <ImageView
+        android:id="@+id/image_view_xilat_betted"
+        android:layout_width="@dimen/width_betted_chip_xi_lat"
+        android:layout_height="@dimen/height_betted_chip_xi_lat"
+        android:layout_above="@id/linear_layout_chips_xi_lat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/distance_text_chips"
+        android:contentDescription="@string/img_content_discription" />
+
+    <TextView
+        android:id="@+id/text_view_xi_lat_betted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_view_xi_lat_bet_guide"
+        android:textSize="@dimen/size_text_view_xi_lat_bet_guide"
+        android:layout_above="@id/image_view_xilat_betted"
+        android:layout_centerHorizontal="true" />
+    
+    <ImageView
+        android:id="@+id/image_view_card_to_deal_xilat"
+        android:layout_width="@dimen/width_card"
+        android:layout_height="@dimen/height_card"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/card_back"
+        android:contentDescription="@string/img_content_discription"
+        android:visibility="invisible" />
+    
+    <LinearLayout
+        android:id="@+id/linear_layout_button_bot_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/linear_layout_bottom_bai_xi_lat"
+        android:layout_marginBottom="@dimen/distance_btn_bot_card_xi_lat"
+        android:layout_centerHorizontal="true" >
+        
+        <ImageButton
+            android:id="@+id/button_bot_xi_lat"
+            android:layout_width="@dimen/width_button_bot_xi_lat"
+            android:layout_height="@dimen/height_button_bot_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/button_bot_xi_lat"
+            android:visibility="invisible" />
+        
+        <ImageButton
+            android:id="@+id/button_ko_bot_xi_lat"
+            android:layout_width="@dimen/width_button_ko_bot_xi_lat"
+            android:layout_height="@dimen/height_button_ko_bot_xi_lat"
+            android:background="@color/absolute_transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/img_content_discription"
+            android:src="@drawable/button_ko_bot_xi_lat"
+            android:visibility="invisible" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/text_view_xi_lat_ask_bot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_xi_lat_ask_bot"
+        android:textColor="@color/text_view_xi_lat_bet_guide"
+        android:textSize="@dimen/size_text_view_xi_lat_bet_guide"
+        android:layout_above="@id/linear_layout_button_bot_xi_lat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/distance_btn_bot_card_xi_lat"
+        android:visibility="invisible" />
+    
+    <!-- set money -->
+    
+    <ImageView
+        android:id="@+id/img_set_money_left_xi_lat"
+        android:layout_width="@dimen/width_avatar"
+        android:layout_height="@dimen/height_avatar"
+        android:layout_toRightOf="@id/linear_layout_left_bai_xi_lat"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_horizontal_avatar_bai_cao"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/set_money_bai_cao"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/text_view_set_money_left_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_set_money_left_xi_lat"
+        android:layout_alignLeft="@id/img_set_money_left_xi_lat"
+        android:textColor="@color/text_view_guide_play_game" />
+    
+    <ImageView
+        android:id="@+id/img_set_money_right_xi_lat"
+        android:layout_width="@dimen/width_avatar"
+        android:layout_height="@dimen/height_avatar"
+        android:layout_toLeftOf="@id/linear_layout_right_bai_xi_lat"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_horizontal_avatar_bai_cao"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/set_money_bai_cao"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/text_view_set_money_right_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_set_money_right_xi_lat"
+        android:layout_alignLeft="@id/img_set_money_right_xi_lat"
+        android:textColor="@color/text_view_guide_play_game" />
+
+    <ImageView
+        android:id="@+id/img_set_money_bottom_xi_lat"
+        android:layout_width="@dimen/width_avatar"
+        android:layout_height="@dimen/height_avatar"
+        android:layout_toRightOf="@id/linear_layout_bottom_bai_xi_lat"
+        android:layout_alignTop="@id/linear_layout_bottom_bai_xi_lat"
+        android:layout_marginRight="@dimen/margin_horizontal_avatar_bai_cao"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/set_money_bai_cao"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/text_view_set_money_bottom_xi_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/img_set_money_bottom_xi_lat"
+        android:layout_alignLeft="@id/img_set_money_bottom_xi_lat"
+        android:textColor="@color/text_view_guide_play_game" />
+    
+    <!-- set money -->
+    
+    <!-- text score -->
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true" >
+        
+        <ImageView
+            android:id="@+id/img_score_1_xi_lat_1"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/char_3"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_score_2_xi_lat_1"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_nut"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_word_xi_lat_1"
+	        android:layout_width="@dimen/width_image_word_xi_lat"
+	        android:layout_height="@dimen/height_image_word_xi_lat"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_quac"
+	        android:visibility="gone" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_vertical_score_bai_cao" >
+        
+        <ImageView
+            android:id="@+id/img_score_1_xi_lat_2"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/char_3"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_score_2_xi_lat_2"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_nut"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_word_xi_lat_2"
+	        android:layout_width="@dimen/width_image_word_xi_lat"
+	        android:layout_height="@dimen/height_image_word_xi_lat"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_3_tien"
+	        android:visibility="gone" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+        
+        <ImageView
+            android:id="@+id/img_score_1_xi_lat_3"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/char_3"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_score_2_xi_lat_3"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_nut"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_word_xi_lat_3"
+	        android:layout_width="@dimen/width_image_word_xi_lat"
+	        android:layout_height="@dimen/height_image_word_xi_lat"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_3_tien"
+	        android:visibility="gone" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_vertical_score_bai_cao" >
+        
+        <ImageView
+            android:id="@+id/img_score_1_xi_lat_4"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/char_3"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_score_2_xi_lat_4"
+	        android:layout_width="@dimen/width_image_score_bai_cao"
+	        android:layout_height="@dimen/height_image_score_bai_cao"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_nut"
+	        android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/img_word_xi_lat_4"
+	        android:layout_width="@dimen/width_image_word_xi_lat"
+	        android:layout_height="@dimen/height_image_word_xi_lat"
+	        android:contentDescription="@string/img_content_discription"
+	        android:src="@drawable/word_3_tien"
+	        android:visibility="gone" />
+        
+    </LinearLayout>
+    
+    <!-- text score -->
+    
+    <ImageButton
+        android:id="@+id/btn_flip_card_xilat"
+        android:background="@color/absolute_transparent"
+        android:layout_width="@dimen/width_btn_flip_bai_cao"
+        android:layout_height="@dimen/height_btn_flip_bai_cao"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/img_content_discription"
+        android:src="@drawable/button_flip_game_bai_cao"
+        android:tag="flip"
+        android:visibility="invisible" />
+    
+</RelativeLayout>
